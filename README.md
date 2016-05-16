@@ -13,4 +13,4 @@
 
 # Charts
 
-## [Hierarchical Edge Bundling](src/heb/index.md)
+## [Hierarchical Edge Bundling](docs/heb.md)
