@@ -1,0 +1,33 @@
+.c3-heb-wrapper path.arc {
+  cursor: move;
+  fill: #fff;
+}
+.c3-heb-wrapper .node {
+  font-size: 10px;
+}
+.c3-heb-wrapper .node:hover {
+  fill: #1f77b4;
+}
+.c3-heb-wrapper .link {
+  fill: none;
+  stroke: #1f77b4;
+  stroke-opacity: .4;
+  pointer-events: none;
+}
+.c3-heb-wrapper .link.source,
+.c3-heb-wrapper .link.target {
+  stroke-opacity: 1;
+  stroke-width: 2px;
+}
+.c3-heb-wrapper .node.target {
+  fill: #d62728 !important;
+}
+.c3-heb-wrapper .link.source {
+  stroke: #d62728;
+}
+.c3-heb-wrapper .node.source {
+  fill: #2ca02c;
+}
+.c3-heb-wrapper .link.target {
+  stroke: #2ca02c;
+}

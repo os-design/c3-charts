@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>C3</title>
+    <link rel="stylesheet" href="../../dist/c3.css">
+</head>
+<body>
+<div style="height: 1000px"></div>
+
+<script src="../../node_modules/d3/d3.min.js"></script>
+<!--<script src="/webpack-dev-server.js"></script>-->
+<script src="../../dist/c3.js"></script>
+<script>
+    d3.json('flare-imports.json', function (classes) {
+        c3.heb('div', {
+            data: classes
+        });
+    });
+</script>
+</body>
+</html>
