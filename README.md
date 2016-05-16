@@ -28,6 +28,7 @@ c3.heb(el, data, config);
 - *type* : css selector
 - *desc* : the container of the chart
 - *demo* : #app
+
 ### data
 
 - *type* : Object of Array
